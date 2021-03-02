@@ -1,6 +1,7 @@
 package io.github.ovso.ex
 
-import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.flow.asFlow
+import kotlinx.coroutines.flow.collectIndexed
 import kotlinx.coroutines.runBlocking
 import org.junit.Test
 
