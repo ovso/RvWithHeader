@@ -17,11 +17,6 @@ class CoroutineTest {
             (1..5).asFlow().collectIndexed { index, value ->
                 println("index: $index, value: $value")
             }
-
-            val asFlow = (0..2).asFlow()
-            asFlow.collectIndexed { a, b ->
-                println("a: $a, b: $b")
-            }
         }
     }
 }
